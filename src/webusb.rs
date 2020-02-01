@@ -45,6 +45,17 @@ impl<B: UsbBus> WebUsb<B> {
             desc_len: (ln+3) as usize,
         }
     }
+
+    /// Gets vendor code that is used for polling URL descriptor
+    pub fn vendor_code(&self) -> u8 {
+        self.bVendorCode
+    }
+
+    /// Sets vendor code that is used for polling URL descriptor
+    pub fn set_vendor_code(mut self, vendor_code: u8) -> Self {
+        self.bVendorCode = vendor_code;
+        self
+    }
 }
 
 impl<B: UsbBus> UsbClass<B> for WebUsb<B> {

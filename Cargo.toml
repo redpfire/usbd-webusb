@@ -7,7 +7,7 @@ keywords = ["no-std", "usb-device"]
 license = "MIT"
 authors = ["redpfire <redpixafire@gmail.com>"]
 edition = "2018"
-
+repository = "https://github.com/redpfire/usbd-webusb"
 
 [dependencies]
 usb-device = "^0.2.4"

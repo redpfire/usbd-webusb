@@ -1,10 +1,10 @@
 [package]
 name = "usbd-webusb"
 description = "WebUSB class for use with usb-device."
-version = "1.0.1"
+version = "1.0.2"
 readme = "README.md"
 keywords = ["no-std", "usb-device"]
-license = "MIT"
+license = "MIT OR Apache-2.0"
 authors = ["redpfire <redpixafire@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/redpfire/usbd-webusb"

@@ -41,7 +41,7 @@ impl<B: UsbBus> WebUsb<B> {
             p: PhantomData,
             iLandingPage: 1,
             bVendorCode: 1,
-            desc: desc,
+            desc,
             desc_len: (ln+3) as usize,
         }
     }
